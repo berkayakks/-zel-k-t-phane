@@ -1,0 +1,228 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*                            ******************   grid sistemi  *******************                         */
+
+
+.satir-k{
+    display: flex;  /*burada flex diye display özelliğini belirliyoruz */
+    flex-direction: row; /*burada türünü belirliyoruz yan yana mı alt altamı şeklinde*/
+}
+.satir-o{
+    display: flex;  /*burada flex diye display özelliğini belirliyoruz */
+    flex-direction: row; /*burada türünü belirliyoruz yan yana mı alt altamı şeklinde*/
+}
+.satir-b{
+    display: flex;  /*burada flex diye display özelliğini belirliyoruz */
+    flex-direction: row; /*burada türünü belirliyoruz yan yana mı alt altamı şeklinde*/
+}
+.satir-enb{
+    display: flex;  /*burada flex diye display özelliğini belirliyoruz */
+    flex-direction: row; /*burada türünü belirliyoruz yan yana mı alt altamı şeklinde*/
+}
+.satir-tasarla{ /*burası satiri ufak tasarladığımız alan*/
+    padding: 20px;
+    margin: 5px 20px 5px 20px;
+    flex-basis: 120px; /*burada bir uzunluk belirliyoruz bu sayi ekran uzunluğu bölü sütun sayısından geliyo 1440/12=120*/
+}
+.sütun-k-1{
+    flex-grow: 1;/*burada yapılan işlem ise bu sütunun ne kadar yer kaplayacağı yani kaçla çarpalım diye soruyor 120*1*/
+}
+.sütun-k-2{
+    flex-grow: 2;
+}
+.sütun-k-3{
+    flex-grow: 3;
+}
+.sütun-k-4{
+    flex-grow: 4;
+}
+.sütun-k-5{
+    flex-grow: 5;
+}
+.sütun-k-6{
+    flex-grow: 6;
+}
+.sütun-k-7{
+    flex-grow: 7;
+}
+.sütun-k-8{
+    flex-grow: 8;
+}
+.sütun-k-9{
+    flex-grow: 9;
+}
+.sütun-k-10{
+    flex-grow: 10;
+}
+.sütun-k-11{
+    flex-grow: 11;
+}
+.sütun-k-12{
+    flex-grow: 12;
+}
+.sütun-o-1{
+    flex-grow: 1;/*burada yapılan işlem ise bu sütunun ne kadar yer kaplayacağı yani kaçla çarpalım diye soruyor 120*1*/
+}
+.sütun-o-2{
+    flex-grow: 2;
+}
+.sütun-o-3{
+    flex-grow: 3;
+}
+.sütun-o-4{
+    flex-grow: 4;
+}
+.sütun-o-5{
+    flex-grow: 5;
+}
+.sütun-o-6{
+    flex-grow: 6;
+}
+.sütun-o-7{
+    flex-grow: 7;
+}
+.sütun-o-8{
+    flex-grow: 8;
+}
+.sütun-o-9{
+    flex-grow: 9;
+}
+.sütun-o-10{
+    flex-grow: 10;
+}
+.sütun-o-11{
+    flex-grow: 11;
+}
+.sütun-o-12{
+    flex-grow: 12;
+}
+.sütun-b-1{
+    flex-grow: 1;/*burada yapılan işlem ise bu sütunun ne kadar yer kaplayacağı yani kaçla çarpalım diye soruyor 120*1*/
+}
+.sütun-b-2{
+    flex-grow: 2;
+}
+.sütun-b-3{
+    flex-grow: 3;
+}
+.sütun-b-4{
+    flex-grow: 4;
+}
+.sütun-b-5{
+    flex-grow: 5;
+}
+.sütun-b-6{
+    flex-grow: 6;
+}
+.sütun-b-7{
+    flex-grow: 7;
+}
+.sütun-b-8{
+    flex-grow: 8;
+}
+.sütun-b-9{
+    flex-grow: 9;
+}
+.sütun-b-10{
+    flex-grow: 10;
+}
+.sütun-b-11{
+    flex-grow: 11;
+}
+.sütun-b-12{
+    flex-grow: 12;
+}
+.sütun-enb-1{
+    flex-grow: 1;/*burada yapılan işlem ise bu sütunun ne kadar yer kaplayacağı yani kaçla çarpalım diye soruyor 120*1*/
+}
+.sütun-enb-2{
+    flex-grow: 2;
+}
+.sütun-enb-3{
+    flex-grow: 3;
+}
+.sütun-enb-4{
+    flex-grow: 4;
+}
+.sütun-enb-5{
+    flex-grow: 5;
+}
+.sütun-enb-6{
+    flex-grow: 6;
+}
+.sütun-enb-7{
+    flex-grow: 7;
+}
+.sütun-enb-8{
+    flex-grow: 8;
+}
+.sütun-enb-9{
+    flex-grow: 9;
+}
+.sütun-enb-10{
+    flex-grow: 10;
+}
+.sütun-enb-11{
+    flex-grow: 11;
+}
+.sütun-enb-12{
+    flex-grow: 12;
+}
+@media(max-width: 720px){
+    .satir-o{
+        flex-direction: column; /*burada yapılan işlem ekran 710 px olduğundan yan yana değil alt alta dursun */
+    }
+}
+@media(max-width: 576px){
+    .satir-enk{
+        flex-direction: column; /*burada yapılan işlem ekran 576 px olduğundan yan yana değil alt alta dursun */
+    }
+}
+@media(max-width: 960px){
+    .satir-b{
+        flex-direction: column; /*burada yapılan işlem ekran 960 px olduğundan yan yana değil alt alta dursun */
+    }
+}
+@media(max-width: 1200px){
+    .satir-enb{
+        flex-direction: column; /*burada yapılan işlem ekran 1200 px olduğundan yan yana değil alt alta dursun */
+    }
+}
+/*                            ******************   button özellikleri  *******************                         */
+.btn{
+    border-radius: 5px;
+    background-color: 	#D0D0D0;
+    padding: 15px;
+    border: 0;
+    cursor: pointer;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.btn-onay{
+    background-color:#80ff80;
+}
+.btn-iptal{
+    background-color:#ff8080;
+}
+.btn-bilgi{
+    background-color:#80dfff;
+}
+.btn-birincil{
+    background-color:#809fff;
+}
+.btn-teklike{
+    background-color:#ffe680;
+}
+.btn-beyaz{
+    background-color: white;
+}
+.btn-siyah{
+    background-color: black;
+    color:white;
+}
+.btn-golge{
+    box-shadow: 0 3px #333;
+}
