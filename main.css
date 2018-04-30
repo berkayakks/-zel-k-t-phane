@@ -200,6 +200,8 @@
     cursor: pointer;
     font-size: 20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: .5s all;
+    
 }
 .btn-onay{
     background-color:#80ff80;
@@ -213,7 +215,7 @@
 .btn-birincil{
     background-color:#809fff;
 }
-.btn-teklike{
+.btn-tehlike{
     background-color:#ffe680;
 }
 .btn-beyaz{
@@ -225,4 +227,61 @@
 }
 .btn-golge{
     box-shadow: 0 3px #333;
+}
+/*                            ******************   button hover özellikleri  *******************                         */
+.btn-hover1-onay{
+    border: 2px solid #80ff80;
+    transition: 1s;
+}
+.btn-hover1-onay:hover{
+    background-color: transparent;
+    transition: 1s all;
+}
+.btn-hover1-iptal{
+    border: 2px solid #ff8080;
+    transition: 1s;
+}
+.btn-hover1-iptal:hover{
+    background-color: transparent;
+    transition: 1s all;
+}
+.btn-hover1-bilgi{
+    border: 2px solid #80dfff;
+    transition: 1s;
+}
+.btn-hover1-bilgi:hover{
+    background-color: transparent;
+    transition: 1s all;
+}
+.btn-hover1-birincil{
+    border: 2px solid #809fff;
+    transition: 1s;
+}
+.btn-hover1-birincil:hover{
+    background-color: transparent;
+    transition: 1s all;
+}
+.btn-hover1-tehlike{
+    border: 2px solid #ffe680;
+    transition: 1s;
+}
+.btn-hover1-tehlike:hover{
+    background-color: transparent;
+    transition: 1s all;
+}
+.btn-hover1-beyaz{
+    border: 2px solid black;
+    transition: 1s;
+}
+.btn-hover1-beyaz:hover{
+    background-color: transparent;
+    transition: 1s all;
+}
+.btn-hover1-siyah{
+    border: 2px solid black;
+    transition: 1s;
+}
+.btn-hover1-siyah:hover{
+    background-color: transparent;
+    transition: 1s all;
 }
